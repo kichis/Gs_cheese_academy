@@ -1,0 +1,321 @@
+
+body{
+    width: 1200px;
+    border: solid 1px #cacaca;
+}
+
+/* //nav-bar// */
+nav{
+    height: 121px;
+    width: 1200px;
+    background-color: palegoldenrod;
+    border-color: #cacaca; /**/
+}
+
+nav a{
+    color: black;
+    font-size: 21px;
+    margin: 50px 25px;
+    padding: 0px; /*doesn't work*/
+}
+
+/* //main image// */
+#meinImage{
+    height: 400px;
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 121px;
+}
+
+#title{
+    color: white;
+    display: inline-block;
+}
+/* align-items: center;  */
+
+#title h1{
+    margin-bottom: 30px;
+}
+
+#title h3{
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+
+/* //main:ABOUT// */
+main{
+    font-size: 16px;
+}
+
+section{
+    text-align: center;
+}
+
+#titleAbout h5{
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 0px;
+
+}
+
+#subttlAbout{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#about article p{
+    margin: 40px 0px;
+}
+
+#imgAbout{
+    height: 231px;
+    width: 1200px;
+    margin-top: 80px;
+}
+
+#imgAbout div{
+    width: 600px;
+    display: flex;
+    float: left;
+    padding: 0px;
+}
+
+#imgAbout img{
+    width: 350px;
+    background-size: 80%;
+}
+
+/* //COURSE// */
+#titleCourse h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#course article{
+    margin-bottom: 60px;
+}
+
+#course table tr{
+    width: 1200px;
+}
+
+#course table td{
+    padding: 0;
+}
+
+/* memo:縦方向中央寄せ */
+#courseFig1-1, #courseFig3-1{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+#courseFig1-1 div, #courseFig3-1 div{
+    width: 480px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#courseFig2-1{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* text-align: right; */
+/* float: right; */
+
+#courseFig2-1 div{
+    width: 480px;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    padding-right: 50px;
+}
+/* display: inline-block; */
+
+#courseFig1 td h4, #courseFig2 td h4, #courseFig3 td h4{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* //NEWS// */
+
+#titleNews h5{
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#subttlNews{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#news article div{
+    width: 300px;
+    margin: 0px 15px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+#news article div:hover{
+    border: dashed 2px violet;
+    box-sizing: content-box;
+}
+
+#news button{
+    height: 60px;
+    width: 300px;
+    background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#news button:hover{
+    box-shadow: 2px 2px 4px gray;
+}
+
+/* //ACCESS// */
+#access{
+    background-color: #fafafa;
+    padding-bottom: 60px;
+}
+
+#titleAccess h5{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+#subttlAccess{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#access table{
+    text-align: left;
+    margin: 60px auto 0px;
+}
+
+#access table tr:nth-child(2n+1){
+    height: 50px;
+}
+
+#access table tr:nth-child(2n){
+    height: 30px;
+}
+
+#access table td:first-child{
+    width: 150px;
+}
+
+/* //CONTACT// */
+
+#titleContact h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#subttlContact{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#contact article{
+    padding-bottom: 40px;
+}
+
+#contact article p{
+    margin-bottom: 30px;
+}
+
+#contact table{
+    text-align: left;
+    border-top: solid 3px #bfbfbf;
+    margin: 0px auto;
+}
+
+#contact table td{
+    border: solid 1px #bfbfbf;
+
+}
+
+#contact table td:nth-child(odd){
+    width: 240px;
+    border-left: 0px;
+}
+
+#contact table td:nth-child(even){
+    width: 400px;
+    border-right: 0px;
+}
+#contact table p{
+    margin: 8px 64px auto 16px;
+}
+
+#contact table input,#contact table select{
+    height: 36px;
+    width: 328px;
+    border: solid 1px #bfbfbf;
+    margin: 8px auto 8px 8px;
+}
+
+#contact table input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    border: solid 1px #bfbfbf;
+}
+
+#contact table textarea{
+    border: solid 1px #bfbfbf;
+    margin: 8px;
+}
+
+#contact button{
+    height: 60px;
+    width: 300px;
+    background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+#contact button:hover{
+    box-shadow: 2px 2px 4px gray;
+}
+
+/* //footer// */
+#footer{
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    /* padding: ; */
+}
+#footer p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
